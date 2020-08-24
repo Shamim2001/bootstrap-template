@@ -59,13 +59,49 @@ iframe{
     margin-left: 20px;
     font-size: 30px;
     background: #ddd;
-    padding: 5px 12px;
+    padding: 18px 12px;
     border-radius: 99px;
 }
-footer button{
-    font-size: 20px;
-    background: #000;
+#main i{
+    padding: 15px;
 }
-.footer-area li{
-    list-style: none;
+
+footer input{
+    height: 25px;
+}
+hr{
+    width: 25%;
+    border-bottom: 2px solid red;
+    margin-left: 0;
+}
+#content button{
+    margin: 10px 0;
+}
+#content hr{
+    width: 20%;
+    border-bottom: 5px solid black;
+    margin: auto;
+    margin-bottom: 30px;
+}
+form{
+    width: 500px;
+    height: 50px;
+    margin: 10px 10px 10px 0;
+    display: flex;
+}
+form input{
+    height: 100%;
+    width: 70%;
+    border: 1px solid #ddd;
+    padding-left: 10px;
+   
+}
+form button{
+    height: 100%;
+    width: 30%;
+    border: none;
+}
+footer a{
+    font-size: 40px;
+    padding: 10px;
 }
